@@ -206,10 +206,10 @@ struct TSSetTimeZoneReq {
 
 // for session
 struct TSInsertRecordReq {
-  1: required i64 sessionId
-  2: required string prefixPath
-  3: required list<string> measurements
-  4: required binary values
+  1: required i64 sessionId // 本质是thrift的rpc连接的id
+  2: required string prefixPath // 设备的id 例如root.表.decice
+  3: required list<string> measurements // 设备的记录的各个维度 相当是表的各个字段
+  4: required binary values // 把type和value混合在1起的
   5: required i64 timestamp
   6: optional bool isAligned
 }

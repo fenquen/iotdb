@@ -753,7 +753,7 @@ public class LocalConfigNode {
   }
 
   public DataPartition getOrCreateDataPartition(
-      Map<String, List<DataPartitionQueryParam>> sgNameToQueryParamsMap)
+      Map<String, List<DataPartitionQueryParam>> sgNameToQueryParamsMap) // storageGroup -> List<DataPartitionQueryParam>
       throws MetadataException, DataRegionException {
     Map<String, Map<TSeriesPartitionSlot, Map<TTimePartitionSlot, List<TRegionReplicaSet>>>>
         dataPartitionMap = new HashMap<>();

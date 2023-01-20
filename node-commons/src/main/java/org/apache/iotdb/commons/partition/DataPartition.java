@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
 // TODO: Remove this class
 public class DataPartition extends Partition {
   public static final TRegionReplicaSet NOT_ASSIGNED = new TRegionReplicaSet();
-  // Map<StorageGroup, Map<TSeriesPartitionSlot, Map<TTimePartitionSlot, List<TRegionMessage>>>>
+  // StorageGroup -> TSeriesPartitionSlot(应该是对deviceId进行hash分组) -> TTimePartitionSlot -> List<TRegionMessage>
   private Map<String, Map<TSeriesPartitionSlot, Map<TTimePartitionSlot, List<TRegionReplicaSet>>>>
       dataPartitionMap;
 

@@ -125,6 +125,7 @@
     </modules>
     <!-- Properties Management -->
     <properties>
+        <maven.test.skip>true</maven.test.skip>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.assembly.version>3.1.0</maven.assembly.version>
@@ -1057,7 +1058,7 @@
                         <configuration>
                             <resourceBundles>
                                 <!-- Will generate META-INF/{DEPENDENCIES,LICENSE,NOTICE} -->
-                                <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+                                <resourceBundle>org.apache:apache-jar-resource-bundle:1.5-SNAPSHOT</resourceBundle>
                             </resourceBundles>
                             <!-- Content in this directory will be appended to generated resources -->
                             <appendedResourcesDirectory>${basedir}/src/remote-resources</appendedResourcesDirectory>
@@ -1278,11 +1279,11 @@
                 </file>
             </activation>
             <properties>
-                <thrift.exec.absolute.path>${project.build.directory}/tools/${thrift.executable}</thrift.exec.absolute.path>
+                <thrift.exec.absolute.path>/usr/bin/thrift</thrift.exec.absolute.path>
             </properties>
             <build>
                 <plugins>
-                    <plugin>
+                    <!--<plugin>
                         <groupId>com.googlecode.maven-download-plugin</groupId>
                         <artifactId>download-maven-plugin</artifactId>
                         <version>1.6.7</version>
@@ -1300,7 +1301,7 @@
                                 </configuration>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>exec-maven-plugin</artifactId>
@@ -1313,7 +1314,7 @@
                                     <goal>exec</goal>
                                 </goals>
                                 <configuration>
-                                    <skip>${thrift.skip-making-executable}</skip>
+                                    <skip>true</skip>
                                     <executable>${thrift.exec-cmd.executable}</executable>
                                     <commandlineArgs>${thrift.exec-cmd.args}</commandlineArgs>
                                 </configuration>

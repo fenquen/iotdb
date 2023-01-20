@@ -114,9 +114,9 @@ public abstract class StatementVisitor<R, C> {
     return visitNode(statement, context);
   }
 
-  /** Data Definition Language (DDL) */
-
-  // Create Timeseries
+  /** Data Definition
+   Language (DDL) */
+   // Create Timeseries
   public R visitCreateTimeseries(CreateTimeSeriesStatement createTimeSeriesStatement, C context) {
     return visitStatement(createTimeSeriesStatement, context);
   }

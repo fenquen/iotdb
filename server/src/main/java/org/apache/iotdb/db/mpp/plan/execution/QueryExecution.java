@@ -197,8 +197,8 @@ public class QueryExecution implements IQueryExecution {
       context.setTimeOut(remainTime);
     }
 
-    doLogicalPlan();
-    doDistributedPlan();
+    doLogicalPlan(); // 生成 logicalPlan
+    doDistributedPlan(); // 生成 distributedPlan
     stateMachine.transitionToPlanned();
     if (context.getQueryType() == QueryType.READ) {
       initResultHandle();
