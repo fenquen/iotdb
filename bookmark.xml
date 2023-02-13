@@ -1,0 +1,2440 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/ClusterPartitionFetcher.java" />
+              <entry key="line" value="261" />
+            </attributes>
+            <option name="description" value="configNode客户端发送getOrCreateDataPartitionTable" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/service/thrift/ConfigNodeRPCServiceProcessor.java" />
+              <entry key="line" value="362" />
+            </attributes>
+            <option name="description" value="configManager.getOrCreateDataPartition()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ConfigManager.java" />
+              <entry key="line" value="638" />
+            </attributes>
+            <option name="description" value="partitionManager.getOrCreateDataPartition()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="258" />
+            </attributes>
+            <option name="description" value="dataPartitionResp = getDataPartition(req);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/statemachine/ConfigNodeRegionStateMachine.java" />
+              <entry key="line" value="154" />
+            </attributes>
+            <option name="description" value="-read(plan)" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/executor/ConfigPlanExecutor.java" />
+              <entry key="line" value="199" />
+            </attributes>
+            <option name="description" value="--partitionInfo.getDataPartition(request)" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="283" />
+            </attributes>
+            <option name="description" value="extendRegionGroupIfNecessary()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="358" />
+            </attributes>
+            <option name="description" value="-autoExtendRegionGroupIfNecessary()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="466" />
+            </attributes>
+            <option name="description" value="--generateAndAllocateRegionGroups()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="474" />
+            </attributes>
+            <option name="description" value="allocateRegionGroups()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/LoadManager.java" />
+              <entry key="line" value="114" />
+            </attributes>
+            <option name="description" value="-regionBalancer.genRegionGroupsAllocationPlan()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/balancer/RegionBalancer.java" />
+              <entry key="line" value="118" />
+            </attributes>
+            <option name="description" value="--regionGroupAllocator.generateOptimalRegionReplicasDistribution()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+              <entry key="line" value="477" />
+            </attributes>
+            <option name="description" value="createRegionGroups()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/StorageEngineV2.java" />
+              <entry key="line" value="627" />
+            </attributes>
+            <option name="description" value="buildNewDataRegion(sg, regionid, ttl);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="insert如何得到对应datapartition" />
+      </GroupState>
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java" />
+              <entry key="line" value="211" />
+            </attributes>
+            <option name="description" value="applicationStateMachine.takeSnapshot()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/snapshot/SnapshotTaker.java" />
+              <entry key="line" value="200" />
+            </attributes>
+            <option name="description" value="snapshotLogger.logFile(source);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/snapshot/SnapshotTaker.java" />
+              <entry key="line" value="111" />
+            </attributes>
+            <option name="description" value="snapshotLogger.logEnd();" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java" />
+              <entry key="line" value="87" />
+            </attributes>
+            <option name="description" value="loadSnapshot(snapshotStorage.findLatestSnapshotDir());" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java" />
+              <entry key="line" value="256" />
+            </attributes>
+            <option name="description" value="applicationStateMachine.loadSnapshot(latestSnapshotDir);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="snapshot" />
+      </GroupState>
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/example/session/src/main/java/org/apache/iotdb/SessionExample.java" />
+              <entry key="line" value="266" />
+            </attributes>
+            <option name="description" value="session.insertRecord()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/session/src/main/java/org/apache/iotdb/session/SessionConnection.java" />
+              <entry key="line" value="490" />
+            </attributes>
+            <option name="description" value="client.insertRecord(request)" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/ClientRPCServiceImpl.java" />
+              <entry key="line" value="1139" />
+            </attributes>
+            <option name="description" value="COORDINATOR.execute()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/execution/QueryExecution.java" />
+              <entry key="line" value="141" />
+            </attributes>
+            <option name="description" value="this.analysis = analyze(statement, context, partitionFetcher, schemaFetcher);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/distribution/DistributionPlanner.java" />
+              <entry key="line" value="68" />
+            </attributes>
+            <option name="description" value="PlanNode rootWithExchange = addExchangeNode(rootAfterRewrite);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/distribution/DistributionPlanner.java" />
+              <entry key="line" value="77" />
+            </attributes>
+            <option name="description" value="得到fragmentInstanceList" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/distribution/WriteFragmentParallelPlanner.java" />
+              <entry key="line" value="55" />
+            </attributes>
+            <option name="description" value="((WritePlanNode) node).splitByPartition(analysis);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/plan/node/write/InsertRowNode.java" />
+              <entry key="line" value="101" />
+            </attributes>
+            <option name="description" value="timePartitionSlot = TimePartitionUtils.getTimePartition(time);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/execution/QueryExecution.java" />
+              <entry key="line" value="205" />
+            </attributes>
+            <option name="description" value="向其它node分发" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/scheduler/ClusterScheduler.java" />
+              <entry key="line" value="105" />
+            </attributes>
+            <option name="description" value="-dispatcher.dispatch(instances);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/scheduler/FragmentInstanceDispatcherImpl.java" />
+              <entry key="line" value="89" />
+            </attributes>
+            <option name="description" value="dispatchWriteSync(instances);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/scheduler/FragmentInstanceDispatcherImpl.java" />
+              <entry key="line" value="138" />
+            </attributes>
+            <option name="description" value="dispatchRemote(instance, endPoint);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/scheduler/FragmentInstanceDispatcherImpl.java" />
+              <entry key="line" value="170" />
+            </attributes>
+            <option name="description" value="client.sendPlanNode(sendPlanNodeReq)" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeInternalRPCServiceImpl.java" />
+              <entry key="line" value="282" />
+            </attributes>
+            <option name="description" value="regionWriteExecutor.execute(groupId, planNode);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/executor/RegionWriteExecutor.java" />
+              <entry key="line" value="85" />
+            </attributes>
+            <option name="description" value="-planNode.accept(executionVisitor, context);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/executor/RegionWriteExecutor.java" />
+              <entry key="line" value="225" />
+            </attributes>
+            <option name="description" value="--fireTriggerAndInsert(context.getRegionId(), insertNode);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/executor/RegionWriteExecutor.java" />
+              <entry key="line" value="111" />
+            </attributes>
+            <option name="description" value="---DataRegionConsensusImpl.getInstance().write(groupId, planNode);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="写入" />
+      </GroupState>
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/client/ConfigNodeClient.java" />
+              <entry key="line" value="309" />
+            </attributes>
+            <option name="description" value="resp = client.registerDataNode(req);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ConfigManager.java" />
+              <entry key="line" value="264" />
+            </attributes>
+            <option name="description" value="nodeManager.registerDataNode()" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/node/NodeManager.java" />
+              <entry key="line" value="246" />
+            </attributes>
+            <option name="description" value="getConsensusManager().write(registerDataNodePlan);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java" />
+              <entry key="line" value="261" />
+            </attributes>
+            <option name="description" value="-writeLocallyWithRetry(clientRequest);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java" />
+              <entry key="line" value="281" />
+            </attributes>
+            <option name="description" value="-writeRemotelyWithRetry(client, message);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java" />
+              <entry key="line" value="136" />
+            </attributes>
+            <option name="description" value="自己实现的applyTx中调用write" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/statemachine/ConfigNodeRegionStateMachine.java" />
+              <entry key="line" value="119" />
+            </attributes>
+            <option name="description" value="stateMachine应对请求write(plan);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="add dataNode" />
+      </GroupState>
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="jar://$USER_HOME$/repository/org/apache/ratis/ratis-server/2.4.1/ratis-server-2.4.1-sources.jar!/org/apache/ratis/server/impl/RaftServerImpl.java" />
+              <entry key="line" value="853" />
+            </attributes>
+            <option name="description" value="RaftClientRequest如果是read会调用statemachine的query" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java" />
+              <entry key="line" value="411" />
+            </attributes>
+            <option name="description" value="addPeer" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/conf/IoTDBConfig.java" />
+              <entry key="line" value="862" />
+            </attributes>
+            <option name="description" value="dataRegionConsensusPort" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java" />
+              <entry key="line" value="132" />
+            </attributes>
+            <option name="description" value="build peer" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/DataPartition.java" />
+              <entry key="line" value="124" />
+            </attributes>
+            <option name="description" value="通过storage group名字-&gt;分区对应的slot-&gt;timeslot得到 数据region的list" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeInternalRPCServiceImpl.java" />
+              <entry key="line" value="266" />
+            </attributes>
+            <option name="description" value="regionReadExecutor.execute(groupId, fragmentInstance);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/executor/RegionReadExecutor.java" />
+              <entry key="line" value="43" />
+            </attributes>
+            <option name="description" value="-dataRegionConsensusImpl.read(groupId, fragmentInstance);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/localconfignode/LocalConfigNode.java" />
+              <entry key="line" value="198" />
+            </attributes>
+            <option name="description" value="storageEngine.getLocalDataRegionInfo();" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/query/control/SessionManager.java" />
+              <entry key="line" value="66" />
+            </attributes>
+            <option name="description" value="private final Map&lt;IClientSession, Object&gt; sessions = new ConcurrentHashMap&lt;&gt;();" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/query/control/SessionManager.java" />
+              <entry key="line" value="333" />
+            </attributes>
+            <option name="description" value="thrif体系的维度内当连接的时候设置当前session" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/TSServiceImpl.java" />
+              <entry key="line" value="274" />
+            </attributes>
+            <option name="description" value="dataNode应对登录" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/session/src/main/java/org/apache/iotdb/session/Session.java" />
+              <entry key="line" value="393" />
+            </attributes>
+            <option name="description" value="defaultSessionConnection = constructSessionConnection(this, defaultEndPoint, zoneId);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/execution/QueryExecution.java" />
+              <entry key="line" value="199" />
+            </attributes>
+            <option name="description" value="doLogicalPlan();" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/distribution/ExchangeNodeAdder.java" />
+              <entry key="line" value="78" />
+            </attributes>
+            <option name="description" value="if (node instanceof WritePlanNode) {" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/scheduler/StandaloneScheduler.java" />
+              <entry key="line" value="161" />
+            </attributes>
+            <option name="description" value="scheduler insert" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/statemachine/visitor/DataExecutionVisitor.java" />
+              <entry key="line" value="55" />
+            </attributes>
+            <option name="description" value="dataRegion.insert(node);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/DataRegion.java" />
+              <entry key="line" value="921" />
+            </attributes>
+            <option name="description" value="IoTDBDescriptor.getInstance().getConfig().isEnableDiscardOutOfOrderData()) {" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/DataRegion.java" />
+              <entry key="line" value="926" />
+            </attributes>
+            <option name="description" value="insertToTsFileProcessor(insertRowNode, isSequence, timePartitionId);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/DataRegion.java" />
+              <entry key="line" value="1132" />
+            </attributes>
+            <option name="description" value="tsFileProcessor.insert(insertRowNode);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/TsFileProcessor.java" />
+              <entry key="line" value="240" />
+            </attributes>
+            <option name="description" value="wal insert" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/TsFileProcessor.java" />
+              <entry key="line" value="258" />
+            </attributes>
+            <option name="description" value="workMemTable.insert(insertRowNode);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="iotdb" />
+      </GroupState>
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/driver/Driver.java" />
+              <entry key="line" value="185" />
+            </attributes>
+            <option name="description" value="tablescan不断的到tsBlock" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/driver/Driver.java" />
+              <entry key="line" value="187" />
+            </attributes>
+            <option name="description" value="sinkHandle.send(tsBlock);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="分布式应对select" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/ClusterPartitionFetcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3468">
+              <caret line="262" column="47" selection-start-line="262" selection-start-column="47" selection-end-line="262" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/cache/PartitionCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8959">
+              <caret line="593" column="23" selection-start-line="593" selection-start-column="23" selection-end-line="593" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/AnalyzeVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27880">
+              <caret line="1794" column="25" selection-start-line="1794" selection-start-column="25" selection-end-line="1794" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/DataPartitionQueryParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TTimePartitionSlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/src/main/thrift/common.thrift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/client/ConfigNodeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10081">
+              <caret line="714" column="33" selection-start-line="714" selection-start-column="33" selection-end-line="714" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/IConfigNodeRPCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3145">
+              <caret line="190" column="35" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/service/thrift/ConfigNodeRPCServiceProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3587">
+              <caret line="362" selection-start-line="362" selection-end-line="362" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8177">
+              <caret line="638" selection-start-line="638" selection-end-line="638" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6494">
+              <caret line="477" column="43" selection-start-line="477" selection-start-column="43" selection-end-line="477" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/LoadManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/balancer/RegionBalancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/node/NodeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14399">
+              <caret line="942" column="74" selection-start-line="942" selection-start-column="74" selection-end-line="942" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/node/heartbeat/DataNodeHeartbeatCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TDataNodeConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/balancer/region/IRegionGroupAllocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/load/balancer/region/GreedyRegionGroupAllocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TRegionReplicaSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2941">
+              <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/write/region/CreateRegionGroupsPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ClusterSchemaManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6596">
+              <caret line="476" column="39" selection-start-line="476" selection-start-column="39" selection-end-line="476" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/schema/ClusterSchemaInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6205">
+              <caret line="445" column="13" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/metadata/mtree/ConfigMTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4471">
+              <caret line="329" column="14" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/metadata/mnode/IStorageGroupMNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/metadata/mnode/StorageGroupMNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/TStorageGroupSchema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3519">
+              <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ProcedureManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4437">
+              <caret line="342" column="22" selection-start-line="342" selection-start-column="22" selection-end-line="342" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/impl/statemachine/CreateRegionGroupsProcedure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/env/ConfigNodeProcedureEnv.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5797">
+              <caret line="421" column="58" selection-start-line="421" selection-start-column="58" selection-end-line="421" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/async/AsyncDataNodeClientPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/client/async/AsyncDataNodeInternalServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift/target/generated-sources/thrift/org/apache/iotdb/mpp/rpc/thrift/IDataNodeRPCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6868">
+              <caret line="409" column="32" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/sync/SyncDataNodeClientPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeRegionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1717">
+              <caret line="146" column="34" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/StorageEngineV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6171">
+              <caret line="452" column="17" selection-start-line="452" selection-start-column="17" selection-end-line="452" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/engine/storagegroup/DataRegion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="314" column="19" selection-start-line="314" selection-start-column="19" selection-end-line="314" selection-end-column="19" />
+              <folding>
+                <element signature="e#27080#27112#0" expanded="true" />
+                <element signature="e#28862#28894#0" expanded="true" />
+                <element signature="e#40448#40480#0" expanded="true" />
+                <element signature="e#97683#97710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="54" column="61" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/DataRegionConsensusImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/consensus/DataRegionId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/consensus/ConsensusGroupId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/common/Peer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift/src/main/thrift/client.thrift">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift/target/generated-sources/thrift/org/apache/iotdb/service/rpc/thrift/IClientRPCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeInternalRPCServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3162">
+              <caret line="387" column="25" selection-start-line="387" selection-start-column="25" selection-end-line="387" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/client/IClientManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift/target/generated-sources/thrift/org/apache/iotdb/mpp/rpc/thrift/TCreateDataRegionReq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift/src/main/thrift/datanode.thrift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TDataNodeLocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/async/handlers/AsyncClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/async/handlers/rpc/AsyncTSStatusRPCHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/DataNodeRequestType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/state/CreateRegionGroupsState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/impl/statemachine/StateMachineProcedure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/ProcedureExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11730">
+              <caret line="733" column="50" selection-start-line="733" selection-start-column="50" selection-end-line="733" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/scheduler/ProcedureScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/Procedure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5491">
+              <caret line="360" column="34" selection-start-line="360" selection-start-column="34" selection-end-line="360" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/conf/ConfigNodeConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8075">
+              <caret line="501" column="25" selection-start-line="501" selection-start-column="25" selection-end-line="501" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/RegionGroupExtensionPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TConsensusGroupType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/write/partition/CreateDataPartitionPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/ConfigPhysicalPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/common/response/ConsensusReadResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/response/DataPartitionResp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/DataPartitionTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/SeriesPartitionTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2703">
+              <caret line="201" column="47" selection-start-line="201" selection-start-column="47" selection-end-line="201" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TConsensusGroupId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ConsensusManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3689">
+              <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/IConsensus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4318">
+              <caret line="340" column="34" selection-start-line="340" selection-start-column="34" selection-end-line="340" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/statemachine/ConfigNodeRegionStateMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/executor/ConfigPlanExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/ConfigPhysicalPlanType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/partition/PartitionInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7769">
+              <caret line="545" column="60" selection-start-line="545" selection-start-column="60" selection-end-line="545" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/partition/StorageGroupPartitionTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4046">
+              <caret line="289" column="41" selection-start-line="289" selection-start-column="41" selection-end-line="289" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RequestMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/IStateMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/statemachine/DataRegionStateMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4471">
+              <caret line="414" column="45" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
+              <folding>
+                <element signature="class#SyncLogCacheQueue#0;class#DataRegionStateMachine#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/statemachine/BaseStateMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/plan/FragmentInstance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="192" column="62" selection-start-line="192" selection-start-column="62" selection-end-line="192" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/iot/wal/GetConsensusReqReaderPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/TDataPartitionTableResp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/read/partition/GetOrCreateDataPartitionPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/read/partition/GetDataPartitionPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/TTimeSlotList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1802">
+              <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-confignode/src/main/thrift/confignode.thrift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2873">
+              <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TSeriesPartitionSlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="ANTLR v4 grammar file">
+      <summary usageCount="4" lastUsed="1673758943751" />
+    </fileType>
+    <fileType name="CLASS">
+      <summary usageCount="79" lastUsed="1675392143298" />
+    </fileType>
+    <fileType name="Dockerfile">
+      <summary usageCount="2" lastUsed="1673435655908" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="1328" lastUsed="1676247392385" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="18" lastUsed="1675238729269" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="9" lastUsed="1673489873184" />
+    </fileType>
+    <fileType name="Properties">
+      <summary usageCount="11" lastUsed="1674380021951" />
+    </fileType>
+    <fileType name="SPI">
+      <summary usageCount="1" lastUsed="1670318571363" />
+    </fileType>
+    <fileType name="Shell Script">
+      <summary usageCount="15" lastUsed="1674380041321" />
+    </fileType>
+    <fileType name="Thrift">
+      <summary usageCount="33" lastUsed="1676247392375" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="24" lastUsed="1676247502400" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1.6.7</find>
+      <find>download-maven-plugin</find>
+      <find>thrift.executable</find>
+      <find>exec-maven-plugin</find>
+      <find>maven-remote-resources-plugin</find>
+      <find>class</find>
+      <find>CONFIGNODE_DATA_HOME</find>
+      <find>classname</find>
+      <find>PARAMS</find>
+      <find>CONFIGNODE_JMX_OPTS</find>
+      <find>com.sun.management.jmxremote.port</find>
+      <find>insert</find>
+      <find>Address</find>
+      <find>start-standalone.sh</find>
+      <find>CONFIGNODE_CONF</find>
+      <find>group</find>
+      <find>nodeid</find>
+      <find>takeSnapshot</find>
+      <find>REDIRECT</find>
+      <find>factor</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node-commons/src/assembly/resources/sbin</dir>
+      <dir>$PROJECT_DIR$/docs/UserGuide/QuickStart</dir>
+    </dirStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{
+}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/thrift/src/main/thrift/client.thrift" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/statement/StatementVisitor.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/StandalonePartitionFetcher.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/localconfignode/LocalConfigNode.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/AnalyzeVisitor.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/metadata/mnode/StorageGroupMNode.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/execution/executor/RegionWriteExecutor.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeInternalRPCServiceImpl.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/execution/QueryExecution.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/SchemaRegionConsensusImpl.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/DataRegionConsensusImpl.java" />
+      <option value="$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/client/ConfigNodeClient.java" />
+      <option value="$PROJECT_DIR$/learn.md" />
+      <option value="$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java" />
+      <option value="$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/DataPartition.java" />
+      <option value="$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java" />
+      <option value="$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/PartitionManager.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="ANTLRv4">
+      <summary usageCount="4" lastUsage="1673758943751" />
+    </language>
+    <language id="Dockerfile">
+      <summary usageCount="2" lastUsage="1673435655908" />
+    </language>
+    <language id="JAVA">
+      <summary usageCount="1328" lastUsage="1676247392385" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="18" lastUsage="1675238729269" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="11" lastUsage="1674380021951" />
+    </language>
+    <language id="SPI">
+      <summary usageCount="1" lastUsage="1670318571363" />
+    </language>
+    <language id="Shell Script">
+      <summary usageCount="15" lastUsage="1674380041321" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="9" lastUsage="1673489873184" />
+    </language>
+    <language id="XML">
+      <summary usageCount="24" lastUsage="1676247502400" />
+    </language>
+    <language id="thrift">
+      <summary usageCount="33" lastUsage="1676247392375" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationStateMachineProxy" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="storagegroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="storagegroup" type="462c0819:PsiDirectoryNode" />
+              <item name="DataRegion" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iotdb" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsfile" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="block" type="462c0819:PsiDirectoryNode" />
+              <item name="TsBlock" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server:2.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseStateMachine" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-api-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-api-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-api-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-api-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="StateMachine" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-server-api:2.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-server-api-2.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ratis" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="StateMachine" type="1a9f42e2:ClassTreeNode" />
+              <item name="FollowerEventApi" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iotdb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.ratis:ratis-thirdparty-misc:1.0.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="ratis-thirdparty-misc-1.0.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="ByteString" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="202554000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21563852" />
+      <window_info id="Web" order="1" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33021653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.33021653" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.33021653" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Dependencies" order="14" />
+      <window_info anchor="bottom" id="Structure" order="15" />
+      <window_info anchor="bottom" id="thief-book" order="16" />
+      <window_info anchor="bottom" id="Notifications" order="17" weight="0.25" />
+      <window_info anchor="bottom" id="Maven" order="18" weight="0.19399351" />
+      <window_info anchor="bottom" id="Tool Output" order="19" weight="0.33021653" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="20" />
+      <window_info anchor="right" id="Bean Validation" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32981604" />
+      <window_info anchor="right" id="Bookmarks" order="2" weight="0.26704544" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26975107" />
+      <window_info id="Web" order="1" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33021653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.33021653" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.33021653" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Dependencies" order="14" />
+      <window_info anchor="bottom" id="Structure" order="15" />
+      <window_info anchor="bottom" id="thief-book" order="16" />
+      <window_info anchor="bottom" id="Notifications" order="17" weight="0.25" />
+      <window_info anchor="bottom" id="Maven" order="18" weight="0.19399351" />
+      <window_info anchor="bottom" id="Tool Output" order="19" weight="0.33021653" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="20" />
+      <window_info anchor="right" id="Bean Validation" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32981604" />
+      <window_info anchor="right" id="Bookmarks" order="2" visible="true" weight="0.31466448" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Bookmarks</value>
+      <value>Database</value>
+      <value>Statistic</value>
+      <value>Run</value>
+      <value>Build</value>
+      <value>Maven</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1675661632944">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1675661632944" />
+    <state width="248" height="270" key="Git.Branch.Popup" timestamp="1674544091760">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="248" height="270" key="Git.Branch.Popup/72.27.1848.1053@72.27.1848.1053" timestamp="1674544091760" />
+    <state width="1804" height="307" key="GridCell.Tab.0.bottom" timestamp="1670394436235">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1670394436235" />
+    <state width="1804" height="307" key="GridCell.Tab.0.center" timestamp="1670394436235">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1670394436235" />
+    <state width="1804" height="307" key="GridCell.Tab.0.left" timestamp="1670394436235">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1670394436235" />
+    <state width="1804" height="307" key="GridCell.Tab.0.right" timestamp="1670394436235">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1804" height="307" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1670394436235" />
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1673435745121">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1673435745121" />
+    <state x="647" y="194" width="960" height="765" key="find.popup" timestamp="1674379999761">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="647" y="194" width="960" height="765" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1674379999761" />
+    <state x="496" y="324" width="1057" height="686" key="search.everywhere.popup" timestamp="1675820439184">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="496" y="324" width="1057" height="686" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1675820439184" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/consensus/ConsensusGroupId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/common/Peer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift/src/main/thrift/client.thrift">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift/target/generated-sources/thrift/org/apache/iotdb/service/rpc/thrift/IClientRPCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/service/thrift/impl/DataNodeInternalRPCServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="387" column="25" selection-start-line="387" selection-start-column="25" selection-end-line="387" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/client/IClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift/target/generated-sources/thrift/org/apache/iotdb/mpp/rpc/thrift/TCreateDataRegionReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift/src/main/thrift/datanode.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TDataNodeLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/async/handlers/AsyncClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/async/handlers/rpc/AsyncTSStatusRPCHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/client/DataNodeRequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/state/CreateRegionGroupsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/impl/statemachine/StateMachineProcedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/ProcedureExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11730">
+          <caret line="733" column="50" selection-start-line="733" selection-start-column="50" selection-end-line="733" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/scheduler/ProcedureScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/procedure/Procedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5491">
+          <caret line="360" column="34" selection-start-line="360" selection-start-column="34" selection-end-line="360" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/conf/ConfigNodeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8075">
+          <caret line="501" column="25" selection-start-line="501" selection-start-column="25" selection-end-line="501" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/partition/RegionGroupExtensionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TConsensusGroupType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/write/partition/CreateDataPartitionPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/ConfigPhysicalPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/common/response/ConsensusReadResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/response/DataPartitionResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/DataPartitionTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-commons/src/main/java/org/apache/iotdb/commons/partition/SeriesPartitionTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="201" column="47" selection-start-line="201" selection-start-column="47" selection-end-line="201" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TConsensusGroupId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/manager/ConsensusManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="268" column="27" selection-start-line="268" selection-start-column="27" selection-end-line="268" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/IConsensus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RatisConsensus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4318">
+          <caret line="340" column="34" selection-start-line="340" selection-start-column="34" selection-end-line="340" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/statemachine/ConfigNodeRegionStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/executor/ConfigPlanExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/ConfigPhysicalPlanType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/partition/PartitionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7769">
+          <caret line="545" column="60" selection-start-line="545" selection-start-column="60" selection-end-line="545" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/persistence/partition/StorageGroupPartitionTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4046">
+          <caret line="289" column="41" selection-start-line="289" selection-start-column="41" selection-end-line="289" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/ApplicationStateMachineProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/ratis/RequestMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/IStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/statemachine/DataRegionStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4471">
+          <caret line="414" column="45" selection-start-line="414" selection-start-column="45" selection-end-line="414" selection-end-column="45" />
+          <folding>
+            <element signature="class#SyncLogCacheQueue#0;class#DataRegionStateMachine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/consensus/statemachine/BaseStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/planner/plan/FragmentInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="192" column="62" selection-start-line="192" selection-start-column="62" selection-end-line="192" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/src/main/java/org/apache/iotdb/consensus/iot/wal/GetConsensusReqReaderPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/TDataPartitionTableResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/read/partition/GetOrCreateDataPartitionPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confignode/src/main/java/org/apache/iotdb/confignode/consensus/request/read/partition/GetDataPartitionPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-confignode/target/generated-sources/thrift/org/apache/iotdb/confignode/rpc/thrift/TTimeSlotList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-confignode/src/main/thrift/confignode.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thrift-commons/target/generated-sources/thrift/org/apache/iotdb/common/rpc/thrift/TSeriesPartitionSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/apache/iotdb/db/mpp/plan/analyze/ClusterPartitionFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="262" column="47" selection-start-line="262" selection-start-column="47" selection-end-line="262" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21799308" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>iotdb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21799308" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21799308" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

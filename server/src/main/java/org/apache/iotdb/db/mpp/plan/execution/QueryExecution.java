@@ -203,7 +203,7 @@ public class QueryExecution implements IQueryExecution {
     if (context.getQueryType() == QueryType.READ) {
       initResultHandle();
     }
-    schedule();
+    schedule(); // 向其它node分发
   }
 
   private ExecutionResult retry() {
