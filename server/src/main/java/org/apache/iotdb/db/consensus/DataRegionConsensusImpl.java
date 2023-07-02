@@ -43,7 +43,7 @@ import java.util.concurrent.TimeUnit;
  * dataRegion's reading and writing
  */
 public class DataRegionConsensusImpl {
-  private static final IoTDBConfig conf = IoTDBDescriptor.getInstance().getConfig();
+  private static final IoTDBConfig IO_TDB_CONFIG = IoTDBDescriptor.getInstance().getConfig();
 
   private static IConsensus INSTANCE = null;
 
@@ -58,36 +58,34 @@ public class DataRegionConsensusImpl {
     if (INSTANCE == null) {
       INSTANCE =
           ConsensusFactory.getConsensusImpl(
-                  conf.getDataRegionConsensusProtocolClass(),
+                  IO_TDB_CONFIG.getDataRegionConsensusProtocolClass(),
                   ConsensusConfig.newBuilder()
-                      .setThisNodeId(conf.getDataNodeId())
-                      .setThisNode(
-                          new TEndPoint(
-                              conf.getInternalAddress(), conf.getDataRegionConsensusPort()))
-                      .setStorageDir(conf.getDataRegionConsensusDir())
+                      .setThisNodeId(IO_TDB_CONFIG.getDataNodeId())
+                      .setThisNode(new TEndPoint(IO_TDB_CONFIG.getInternalAddress(), IO_TDB_CONFIG.getDataRegionConsensusPort()))
+                      .setStorageDir(IO_TDB_CONFIG.getDataRegionConsensusDir())
                       .setIoTConsensusConfig(
                           IoTConsensusConfig.newBuilder()
                               .setRpc(
                                   RPC.newBuilder()
-                                      .setConnectionTimeoutInMs(conf.getConnectionTimeoutInMS())
-                                      .setRpcSelectorThreadNum(conf.getRpcSelectorThreadCount())
+                                      .setConnectionTimeoutInMs(IO_TDB_CONFIG.getConnectionTimeoutInMS())
+                                      .setRpcSelectorThreadNum(IO_TDB_CONFIG.getRpcSelectorThreadCount())
                                       .setRpcMinConcurrentClientNum(
-                                          conf.getRpcMinConcurrentClientNum())
+                                          IO_TDB_CONFIG.getRpcMinConcurrentClientNum())
                                       .setRpcMaxConcurrentClientNum(
-                                          conf.getRpcMaxConcurrentClientNum())
+                                          IO_TDB_CONFIG.getRpcMaxConcurrentClientNum())
                                       .setRpcThriftCompressionEnabled(
-                                          conf.isRpcThriftCompressionEnable())
+                                          IO_TDB_CONFIG.isRpcThriftCompressionEnable())
                                       .setSelectorNumOfClientManager(
-                                          conf.getSelectorNumOfClientManager())
+                                          IO_TDB_CONFIG.getSelectorNumOfClientManager())
                                       .setThriftServerAwaitTimeForStopService(
-                                          conf.getThriftServerAwaitTimeForStopService())
-                                      .setThriftMaxFrameSize(conf.getThriftMaxFrameSize())
+                                          IO_TDB_CONFIG.getThriftServerAwaitTimeForStopService())
+                                      .setThriftMaxFrameSize(IO_TDB_CONFIG.getThriftMaxFrameSize())
                                       .build())
                               .setReplication(
                                   IoTConsensusConfig.Replication.newBuilder()
-                                      .setWalThrottleThreshold(conf.getThrottleThreshold())
+                                      .setWalThrottleThreshold(IO_TDB_CONFIG.getThrottleThreshold())
                                       .setAllocateMemoryForConsensus(
-                                          conf.getAllocateMemoryForConsensus())
+                                          IO_TDB_CONFIG.getAllocateMemoryForConsensus())
                                       .build())
                               .build())
                       .setRatisConfig(
@@ -99,66 +97,66 @@ public class DataRegionConsensusImpl {
                                   Snapshot.newBuilder()
                                       .setCreationGap(1)
                                       .setAutoTriggerThreshold(
-                                          conf.getDataRatisConsensusSnapshotTriggerThreshold())
+                                          IO_TDB_CONFIG.getDataRatisConsensusSnapshotTriggerThreshold())
                                       .build())
                               .setLog(
                                   RatisConfig.Log.newBuilder()
                                       .setUnsafeFlushEnabled(
-                                          conf.isDataRatisConsensusLogUnsafeFlushEnable())
+                                          IO_TDB_CONFIG.isDataRatisConsensusLogUnsafeFlushEnable())
                                       .setSegmentSizeMax(
                                           SizeInBytes.valueOf(
-                                              conf.getDataRatisConsensusLogSegmentSizeMax()))
+                                              IO_TDB_CONFIG.getDataRatisConsensusLogSegmentSizeMax()))
                                       .setPreserveNumsWhenPurge(
-                                          conf.getDataRatisConsensusPreserveWhenPurge())
+                                          IO_TDB_CONFIG.getDataRatisConsensusPreserveWhenPurge())
                                       .build())
                               .setGrpc(
                                   RatisConfig.Grpc.newBuilder()
                                       .setFlowControlWindow(
                                           SizeInBytes.valueOf(
-                                              conf.getDataRatisConsensusGrpcFlowControlWindow()))
+                                              IO_TDB_CONFIG.getDataRatisConsensusGrpcFlowControlWindow()))
                                       .build())
                               .setRpc(
                                   RatisConfig.Rpc.newBuilder()
                                       .setTimeoutMin(
                                           TimeDuration.valueOf(
-                                              conf
+                                              IO_TDB_CONFIG
                                                   .getDataRatisConsensusLeaderElectionTimeoutMinMs(),
                                               TimeUnit.MILLISECONDS))
                                       .setTimeoutMax(
                                           TimeDuration.valueOf(
-                                              conf
+                                              IO_TDB_CONFIG
                                                   .getDataRatisConsensusLeaderElectionTimeoutMaxMs(),
                                               TimeUnit.MILLISECONDS))
                                       .setRequestTimeout(
                                           TimeDuration.valueOf(
-                                              conf.getDataRatisConsensusRequestTimeoutMs(),
+                                              IO_TDB_CONFIG.getDataRatisConsensusRequestTimeoutMs(),
                                               TimeUnit.MILLISECONDS))
                                       .setFirstElectionTimeoutMin(
                                           TimeDuration.valueOf(
-                                              conf.getRatisFirstElectionTimeoutMinMs(),
+                                              IO_TDB_CONFIG.getRatisFirstElectionTimeoutMinMs(),
                                               TimeUnit.MILLISECONDS))
                                       .setFirstElectionTimeoutMax(
                                           TimeDuration.valueOf(
-                                              conf.getRatisFirstElectionTimeoutMaxMs(),
+                                              IO_TDB_CONFIG.getRatisFirstElectionTimeoutMaxMs(),
                                               TimeUnit.MILLISECONDS))
                                       .build())
                               .setLeaderLogAppender(
                                   RatisConfig.LeaderLogAppender.newBuilder()
                                       .setBufferByteLimit(
-                                          conf.getDataRatisConsensusLogAppenderBufferSizeMax())
+                                          IO_TDB_CONFIG.getDataRatisConsensusLogAppenderBufferSizeMax())
                                       .build())
                               .setRatisConsensus(
                                   RatisConfig.RatisConsensus.newBuilder()
                                       .setClientRequestTimeoutMillis(
-                                          conf.getDataRatisConsensusRequestTimeoutMs())
+                                          IO_TDB_CONFIG.getDataRatisConsensusRequestTimeoutMs())
                                       .setClientMaxRetryAttempt(
-                                          conf.getDataRatisConsensusMaxRetryAttempts())
+                                          IO_TDB_CONFIG.getDataRatisConsensusMaxRetryAttempts())
                                       .setClientRetryInitialSleepTimeMs(
-                                          conf.getDataRatisConsensusInitialSleepTimeMs())
+                                          IO_TDB_CONFIG.getDataRatisConsensusInitialSleepTimeMs())
                                       .setClientRetryMaxSleepTimeMs(
-                                          conf.getDataRatisConsensusMaxSleepTimeMs())
+                                          IO_TDB_CONFIG.getDataRatisConsensusMaxSleepTimeMs())
                                       .setTriggerSnapshotFileSize(
-                                          conf.getDataRatisLogMaxMB() * 1024 * 1024)
+                                          IO_TDB_CONFIG.getDataRatisLogMaxMB() * 1024 * 1024)
                                       .build())
                               .build())
                       .build(),
@@ -170,7 +168,7 @@ public class DataRegionConsensusImpl {
                       new IllegalArgumentException(
                           String.format(
                               ConsensusFactory.CONSTRUCT_FAILED_MSG,
-                              conf.getDataRegionConsensusProtocolClass())));
+                              IO_TDB_CONFIG.getDataRegionConsensusProtocolClass())));
     }
     return INSTANCE;
   }

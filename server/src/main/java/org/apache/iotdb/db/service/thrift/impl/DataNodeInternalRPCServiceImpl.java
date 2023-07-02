@@ -263,8 +263,8 @@ public class DataNodeInternalRPCServiceImpl implements IDataNodeRPCService.Iface
       return resp;
     }
 
-    RegionReadExecutor executor = new RegionReadExecutor();
-    RegionExecutionResult executionResult = executor.execute(groupId, fragmentInstance);
+    RegionReadExecutor regionReadExecutor = new RegionReadExecutor();
+    RegionExecutionResult executionResult = regionReadExecutor.execute(groupId, fragmentInstance);
     TSendFragmentInstanceResp resp = new TSendFragmentInstanceResp();
     resp.setAccepted(executionResult.isAccepted());
     resp.setMessage(executionResult.getMessage());
@@ -278,9 +278,9 @@ public class DataNodeInternalRPCServiceImpl implements IDataNodeRPCService.Iface
     ConsensusGroupId groupId =
         ConsensusGroupId.Factory.createFromTConsensusGroupId(req.getConsensusGroupId());
     PlanNode planNode = PlanNodeType.deserialize(req.planNode.body);
-    RegionWriteExecutor executor = new RegionWriteExecutor();
+    RegionWriteExecutor regionWriteExecutor = new RegionWriteExecutor();
     TSendPlanNodeResp resp = new TSendPlanNodeResp();
-    RegionExecutionResult executionResult = executor.execute(groupId, planNode);
+    RegionExecutionResult executionResult = regionWriteExecutor.execute(groupId, planNode);
     resp.setAccepted(executionResult.isAccepted());
     resp.setMessage(executionResult.getMessage());
     resp.setStatus(executionResult.getStatus());

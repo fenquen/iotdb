@@ -94,7 +94,7 @@ public class RegionWriteExecutor {
     }
   }
 
-  public static ConsensusWriteResponse fireTriggerAndInsert(
+  private static ConsensusWriteResponse fireTriggerAndInsert(
       ConsensusGroupId groupId, PlanNode planNode) {
     ConsensusWriteResponse writeResponse;
     TriggerFireVisitor visitor = new TriggerFireVisitor();

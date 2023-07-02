@@ -138,7 +138,7 @@ public class ConfigNodeClient
 
   private long connectionTimeout = ClientPoolProperty.DefaultProperty.WAIT_CLIENT_TIMEOUT_MS;
 
-  private IConfigNodeRPCService.Iface client;
+  private IConfigNodeRPCService.Iface client; // thrift维度内的用来连接configNode的
 
   private TTransport transport;
 

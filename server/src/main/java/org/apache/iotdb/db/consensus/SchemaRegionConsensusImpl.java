@@ -59,9 +59,7 @@ public class SchemaRegionConsensusImpl {
                   conf.getSchemaRegionConsensusProtocolClass(),
                   ConsensusConfig.newBuilder()
                       .setThisNodeId(conf.getDataNodeId())
-                      .setThisNode(
-                          new TEndPoint(
-                              conf.getInternalAddress(), conf.getSchemaRegionConsensusPort()))
+                      .setThisNode(new TEndPoint(conf.getInternalAddress(), conf.getSchemaRegionConsensusPort()))
                       .setRatisConfig(
                           RatisConfig.newBuilder()
                               .setSnapshot(

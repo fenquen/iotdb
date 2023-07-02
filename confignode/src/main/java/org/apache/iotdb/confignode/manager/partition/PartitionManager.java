@@ -408,7 +408,7 @@ public class PartitionManager {
 
     for (Map.Entry<String, Integer> entry : unassignedPartitionSlotsCountMap.entrySet()) {
       final String storageGroup = entry.getKey();
-      final int unassignedPartitionSlotsCount = entry.getValue();
+      final int unassignedPartitionSlotsCount = entry.getValue(); // 需要增加的数量
 
       float allocatedRegionGroupCount =
           partitionInfo.getRegionGroupCount(storageGroup, consensusGroupType);
