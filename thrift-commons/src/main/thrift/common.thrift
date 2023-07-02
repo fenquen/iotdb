@@ -72,7 +72,7 @@ struct TConfigNodeLocation {
 
 struct TDataNodeLocation {
   1: required i32 dataNodeId
-  // TEndPoint for DataNode's client rpc
+  // TEndPoint for DataNode's client rpc,dataNode和用户的客户端交互的端口
   2: required TEndPoint clientRpcEndPoint
   // TEndPoint for DataNode's cluster internal rpc
   3: required TEndPoint internalEndPoint
